@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .status-bar span {
+    margin: 0 4px;
+  }

@@ -1,0 +1,27 @@
+.login-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+  }
+  
+  .app-name {
+    font-size: 20px;
+    color: #1d8348;
+    margin: 8px 0;
+  }
+  
+  .welcome-message {
+    font-size: 16px;
+    color: #666;
+    margin: 16px 0;
+  }

@@ -1,0 +1,40 @@
+.user-card{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.user-card:hover{
+    background-color: #f9f9f9;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.recipient-info{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.recipient-info h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .recipient-info p {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+  }
+
+.last-time{
+    font-size: 12px;
+    color: #888;
+}

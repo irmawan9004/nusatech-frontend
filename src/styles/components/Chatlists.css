@@ -1,0 +1,8 @@
+.chat-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* Allow the .chat-list to grow and take up available space */
+}
